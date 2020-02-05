@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+<table> 
+  <thead>
+    <tr>
+      <th>Baby</th>
+      <th>Feeds Today</th>
+      <th>Last Feed Date</th>
+      <th>Total FeedTime Today</th>
+      <th>Total Feed Today</th>        
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td><%= @baby.name %></td>
+        <td><%= @baby.feed_today %></td>
+        <td><%= time_ago_in_words(@baby.feed_last_today) %></td>
+        <td><%= @baby.feedtime_total_today %></td>
+        <td><%= @baby.feed_total_today %></td>
+      </tr>
+  </tbody>
+</table>
+
+
+
+<%= link_to 'Edit', edit_baby_path(@baby) %> |
+<%= link_to 'Back', babies_path %>
