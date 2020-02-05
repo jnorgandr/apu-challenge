@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Apu challenge, aplying Rails, CRUD, REST Arquitecture & Demeter Law
 
-Things you may want to cover:
+Web app for Apu's wife to take management of her children
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Now she can see a variety of options about her milk distribution.
